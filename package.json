@@ -5,7 +5,7 @@
   "description": "Code Javascript à optimiser a destination des play-offs Academy",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/index.js",
+    "start": "parcel",
     "test": "jest --watch"
   },
   "author": "Fanny Monet",
@@ -14,8 +14,14 @@
     "@babel/core": "^7.16.0",
     "@babel/node": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
-    "jest": "^27.4.3",
-    "nodemon": "^2.0.15"
+    "babel-jest": "^28.1.2",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "prettier": "2.7.1"
   },
-  "dependencies": {}
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  }
 }

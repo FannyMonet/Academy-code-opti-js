@@ -6,8 +6,8 @@ describe("sum columns", () => {
     const matrix = [
       [1, 3, 4],
       [9, 5, 2],
-      [7, 4, 8]
-    ]
+      [7, 4, 8],
+    ];
     // When
     const result = sumColumns(matrix);
     // Then
@@ -18,8 +18,8 @@ describe("sum columns", () => {
     const matrix = [
       [1, 3, 4, 3],
       [9, 5, 2, 1],
-      [7, 4, 8, 5]
-    ]
+      [7, 4, 8, 5],
+    ];
 
     // When
     const result = sumColumns(matrix);
@@ -29,7 +29,7 @@ describe("sum columns", () => {
 
   test("should return an empty array if the matrix is empty", () => {
     // Given
-    const matrix = []
+    const matrix = [];
     // When
     const result = sumColumns(matrix);
     // Then
