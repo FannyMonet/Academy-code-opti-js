@@ -1,6 +1,7 @@
 {
   "name": "code-opti-javascript",
   "version": "1.0.0",
+  "type": "module",
   "description": "Code Javascript à optimiser a destination des play-offs Academy",
   "main": "src/index.js",
   "scripts": {
